@@ -1,0 +1,1156 @@
+{
+  "suppliers": [
+    {
+      "name": "AgencyA",
+      "tickets": [
+        {
+          "tid": "T0001",
+          "depart": "Lyon",
+          "arriver": "Paris",
+          "date": "2025-09-03",
+          "prix_min": 28,
+          "prix_max": 70
+        },
+        {
+          "tid": "T0002",
+          "depart": "Nice",
+          "arriver": "Marseille",
+          "date": "2025-09-03",
+          "prix_min": 23,
+          "prix_max": 89
+        },
+        {
+          "tid": "T0003",
+          "depart": "Lyon",
+          "arriver": "Nantes",
+          "date": "2025-06-05",
+          "prix_min": 20,
+          "prix_max": 60
+        },
+        {
+          "tid": "T0004",
+          "depart": "Nice",
+          "arriver": "Grenoble",
+          "date": "2025-08-04",
+          "prix_min": 39,
+          "prix_max": 56
+        },
+        {
+          "tid": "T0005",
+          "depart": "Strasbourg",
+          "arriver": "Nice",
+          "date": "2025-08-31",
+          "prix_min": 40,
+          "prix_max": 89
+        }
+      ]
+    },
+    {
+      "name": "AgencyB",
+      "tickets": [
+        {
+          "tid": "T0006",
+          "depart": "Nantes",
+          "arriver": "Nice",
+          "date": "2025-07-28",
+          "prix_min": 38,
+          "prix_max": 72
+        },
+        {
+          "tid": "T0007",
+          "depart": "Paris",
+          "arriver": "Marseille",
+          "date": "2025-08-29",
+          "prix_min": 33,
+          "prix_max": 76
+        },
+        {
+          "tid": "T0008",
+          "depart": "Toulouse",
+          "arriver": "Marseille",
+          "date": "2025-06-28",
+          "prix_min": 50,
+          "prix_max": 76
+        },
+        {
+          "tid": "T0009",
+          "depart": "Lyon",
+          "arriver": "Grenoble",
+          "date": "2025-07-19",
+          "prix_min": 23,
+          "prix_max": 77
+        },
+        {
+          "tid": "T0010",
+          "depart": "Bordeaux",
+          "arriver": "Toulouse",
+          "date": "2025-09-12",
+          "prix_min": 21,
+          "prix_max": 84
+        }
+      ]
+    },
+    {
+      "name": "AgencyC",
+      "tickets": [
+        {
+          "tid": "T0011",
+          "depart": "Strasbourg",
+          "arriver": "Lyon",
+          "date": "2025-09-27",
+          "prix_min": 32,
+          "prix_max": 60
+        },
+        {
+          "tid": "T0012",
+          "depart": "Strasbourg",
+          "arriver": "Toulouse",
+          "date": "2025-09-15",
+          "prix_min": 40,
+          "prix_max": 78
+        },
+        {
+          "tid": "T0013",
+          "depart": "Grenoble",
+          "arriver": "Nice",
+          "date": "2025-08-30",
+          "prix_min": 22,
+          "prix_max": 57
+        },
+        {
+          "tid": "T0014",
+          "depart": "Nice",
+          "arriver": "Toulouse",
+          "date": "2025-06-11",
+          "prix_min": 47,
+          "prix_max": 69
+        },
+        {
+          "tid": "T0015",
+          "depart": "Lyon",
+          "arriver": "Nantes",
+          "date": "2025-07-06",
+          "prix_min": 34,
+          "prix_max": 78
+        }
+      ]
+    },
+    {
+      "name": "AgencyD",
+      "tickets": [
+        {
+          "tid": "T0016",
+          "depart": "Marseille",
+          "arriver": "Bordeaux",
+          "date": "2025-07-16",
+          "prix_min": 26,
+          "prix_max": 72
+        },
+        {
+          "tid": "T0017",
+          "depart": "Lyon",
+          "arriver": "Marseille",
+          "date": "2025-08-08",
+          "prix_min": 43,
+          "prix_max": 70
+        },
+        {
+          "tid": "T0018",
+          "depart": "Marseille",
+          "arriver": "Lille",
+          "date": "2025-07-19",
+          "prix_min": 28,
+          "prix_max": 90
+        },
+        {
+          "tid": "T0019",
+          "depart": "Nice",
+          "arriver": "Bordeaux",
+          "date": "2025-09-16",
+          "prix_min": 44,
+          "prix_max": 58
+        },
+        {
+          "tid": "T0020",
+          "depart": "Nice",
+          "arriver": "Paris",
+          "date": "2025-09-12",
+          "prix_min": 30,
+          "prix_max": 80
+        }
+      ]
+    },
+    {
+      "name": "AgencyE",
+      "tickets": [
+        {
+          "tid": "T0021",
+          "depart": "Toulouse",
+          "arriver": "Lyon",
+          "date": "2025-06-28",
+          "prix_min": 49,
+          "prix_max": 75
+        },
+        {
+          "tid": "T0022",
+          "depart": "Nice",
+          "arriver": "Lille",
+          "date": "2025-07-21",
+          "prix_min": 48,
+          "prix_max": 84
+        },
+        {
+          "tid": "T0023",
+          "depart": "Marseille",
+          "arriver": "Toulouse",
+          "date": "2025-06-18",
+          "prix_min": 27,
+          "prix_max": 90
+        },
+        {
+          "tid": "T0024",
+          "depart": "Strasbourg",
+          "arriver": "Toulouse",
+          "date": "2025-09-04",
+          "prix_min": 38,
+          "prix_max": 82
+        },
+        {
+          "tid": "T0025",
+          "depart": "Grenoble",
+          "arriver": "Nantes",
+          "date": "2025-07-17",
+          "prix_min": 27,
+          "prix_max": 63
+        }
+      ]
+    },
+    {
+      "name": "AgencyF",
+      "tickets": [
+        {
+          "tid": "T0026",
+          "depart": "Strasbourg",
+          "arriver": "Lille",
+          "date": "2025-06-12",
+          "prix_min": 44,
+          "prix_max": 58
+        },
+        {
+          "tid": "T0027",
+          "depart": "Lyon",
+          "arriver": "Marseille",
+          "date": "2025-08-20",
+          "prix_min": 25,
+          "prix_max": 82
+        },
+        {
+          "tid": "T0028",
+          "depart": "Grenoble",
+          "arriver": "Lyon",
+          "date": "2025-07-20",
+          "prix_min": 32,
+          "prix_max": 84
+        },
+        {
+          "tid": "T0029",
+          "depart": "Strasbourg",
+          "arriver": "Toulouse",
+          "date": "2025-08-10",
+          "prix_min": 47,
+          "prix_max": 55
+        },
+        {
+          "tid": "T0030",
+          "depart": "Lyon",
+          "arriver": "Strasbourg",
+          "date": "2025-09-05",
+          "prix_min": 28,
+          "prix_max": 76
+        }
+      ]
+    },
+    {
+      "name": "AgencyG",
+      "tickets": [
+        {
+          "tid": "T0031",
+          "depart": "Lyon",
+          "arriver": "Toulouse",
+          "date": "2025-07-26",
+          "prix_min": 25,
+          "prix_max": 84
+        },
+        {
+          "tid": "T0032",
+          "depart": "Paris",
+          "arriver": "Toulouse",
+          "date": "2025-08-04",
+          "prix_min": 44,
+          "prix_max": 66
+        },
+        {
+          "tid": "T0033",
+          "depart": "Strasbourg",
+          "arriver": "Lyon",
+          "date": "2025-09-20",
+          "prix_min": 40,
+          "prix_max": 74
+        },
+        {
+          "tid": "T0034",
+          "depart": "Strasbourg",
+          "arriver": "Nice",
+          "date": "2025-06-20",
+          "prix_min": 31,
+          "prix_max": 65
+        },
+        {
+          "tid": "T0035",
+          "depart": "Strasbourg",
+          "arriver": "Grenoble",
+          "date": "2025-09-26",
+          "prix_min": 20,
+          "prix_max": 75
+        }
+      ]
+    },
+    {
+      "name": "AgencyH",
+      "tickets": [
+        {
+          "tid": "T0036",
+          "depart": "Lille",
+          "arriver": "Paris",
+          "date": "2025-06-15",
+          "prix_min": 49,
+          "prix_max": 78
+        },
+        {
+          "tid": "T0037",
+          "depart": "Toulouse",
+          "arriver": "Nice",
+          "date": "2025-06-08",
+          "prix_min": 27,
+          "prix_max": 60
+        },
+        {
+          "tid": "T0038",
+          "depart": "Lyon",
+          "arriver": "Lille",
+          "date": "2025-09-13",
+          "prix_min": 22,
+          "prix_max": 89
+        },
+        {
+          "tid": "T0039",
+          "depart": "Marseille",
+          "arriver": "Grenoble",
+          "date": "2025-08-24",
+          "prix_min": 35,
+          "prix_max": 90
+        },
+        {
+          "tid": "T0040",
+          "depart": "Marseille",
+          "arriver": "Toulouse",
+          "date": "2025-08-07",
+          "prix_min": 47,
+          "prix_max": 82
+        }
+      ]
+    },
+    {
+      "name": "AgencyI",
+      "tickets": [
+        {
+          "tid": "T0041",
+          "depart": "Nice",
+          "arriver": "Strasbourg",
+          "date": "2025-09-05",
+          "prix_min": 43,
+          "prix_max": 67
+        },
+        {
+          "tid": "T0042",
+          "depart": "Toulouse",
+          "arriver": "Nantes",
+          "date": "2025-08-25",
+          "prix_min": 40,
+          "prix_max": 78
+        },
+        {
+          "tid": "T0043",
+          "depart": "Lille",
+          "arriver": "Strasbourg",
+          "date": "2025-07-28",
+          "prix_min": 23,
+          "prix_max": 70
+        },
+        {
+          "tid": "T0044",
+          "depart": "Nice",
+          "arriver": "Lyon",
+          "date": "2025-07-14",
+          "prix_min": 20,
+          "prix_max": 90
+        },
+        {
+          "tid": "T0045",
+          "depart": "Nice",
+          "arriver": "Grenoble",
+          "date": "2025-06-01",
+          "prix_min": 22,
+          "prix_max": 58
+        }
+      ]
+    },
+    {
+      "name": "AgencyJ",
+      "tickets": [
+        {
+          "tid": "T0046",
+          "depart": "Nice",
+          "arriver": "Lyon",
+          "date": "2025-09-24",
+          "prix_min": 21,
+          "prix_max": 76
+        },
+        {
+          "tid": "T0047",
+          "depart": "Lyon",
+          "arriver": "Strasbourg",
+          "date": "2025-07-01",
+          "prix_min": 28,
+          "prix_max": 86
+        },
+        {
+          "tid": "T0048",
+          "depart": "Nice",
+          "arriver": "Strasbourg",
+          "date": "2025-06-17",
+          "prix_min": 43,
+          "prix_max": 85
+        },
+        {
+          "tid": "T0049",
+          "depart": "Nice",
+          "arriver": "Lille",
+          "date": "2025-09-12",
+          "prix_min": 33,
+          "prix_max": 67
+        },
+        {
+          "tid": "T0050",
+          "depart": "Lyon",
+          "arriver": "Grenoble",
+          "date": "2025-08-24",
+          "prix_min": 33,
+          "prix_max": 77
+        }
+      ]
+    }
+  ],
+  "buyers": [
+    {
+      "name": "Buyer_001",
+      "budget": 89,
+      "depart": "Grenoble",
+      "arriver": "Lyon",
+      "date": "2025-07-20"
+    },
+    {
+      "name": "Buyer_002",
+      "budget": 39,
+      "depart": "Lyon",
+      "arriver": "Strasbourg",
+      "date": "2025-09-05"
+    },
+    {
+      "name": "Buyer_003",
+      "budget": 108,
+      "depart": "Nice",
+      "arriver": "Lyon",
+      "date": "2025-07-14"
+    },
+    {
+      "name": "Buyer_004",
+      "budget": 51,
+      "depart": "Toulouse",
+      "arriver": "Nantes",
+      "date": "2025-08-25"
+    },
+    {
+      "name": "Buyer_005",
+      "budget": 69,
+      "depart": "Nice",
+      "arriver": "Grenoble",
+      "date": "2025-08-04"
+    },
+    {
+      "name": "Buyer_006",
+      "budget": 76,
+      "depart": "Lyon",
+      "arriver": "Strasbourg",
+      "date": "2025-07-01"
+    },
+    {
+      "name": "Buyer_007",
+      "budget": 69,
+      "depart": "Paris",
+      "arriver": "Marseille",
+      "date": "2025-08-29"
+    },
+    {
+      "name": "Buyer_008",
+      "budget": 39,
+      "depart": "Grenoble",
+      "arriver": "Nice",
+      "date": "2025-08-30"
+    },
+    {
+      "name": "Buyer_009",
+      "budget": 82,
+      "depart": "Strasbourg",
+      "arriver": "Grenoble",
+      "date": "2025-09-26"
+    },
+    {
+      "name": "Buyer_010",
+      "budget": 82,
+      "depart": "Lyon",
+      "arriver": "Grenoble",
+      "date": "2025-07-19"
+    },
+    {
+      "name": "Buyer_011",
+      "budget": 62,
+      "depart": "Strasbourg",
+      "arriver": "Toulouse",
+      "date": "2025-09-15"
+    },
+    {
+      "name": "Buyer_012",
+      "budget": 64,
+      "depart": "Lyon",
+      "arriver": "Strasbourg",
+      "date": "2025-09-05"
+    },
+    {
+      "name": "Buyer_013",
+      "budget": 101,
+      "depart": "Strasbourg",
+      "arriver": "Nice",
+      "date": "2025-08-31"
+    },
+    {
+      "name": "Buyer_014",
+      "budget": 60,
+      "depart": "Lille",
+      "arriver": "Paris",
+      "date": "2025-06-15"
+    },
+    {
+      "name": "Buyer_015",
+      "budget": 78,
+      "depart": "Nice",
+      "arriver": "Grenoble",
+      "date": "2025-08-04"
+    },
+    {
+      "name": "Buyer_016",
+      "budget": 95,
+      "depart": "Lyon",
+      "arriver": "Paris",
+      "date": "2025-09-03"
+    },
+    {
+      "name": "Buyer_017",
+      "budget": 91,
+      "depart": "Nantes",
+      "arriver": "Nice",
+      "date": "2025-07-28"
+    },
+    {
+      "name": "Buyer_018",
+      "budget": 52,
+      "depart": "Marseille",
+      "arriver": "Bordeaux",
+      "date": "2025-07-16"
+    },
+    {
+      "name": "Buyer_019",
+      "budget": 92,
+      "depart": "Lyon",
+      "arriver": "Marseille",
+      "date": "2025-08-20"
+    },
+    {
+      "name": "Buyer_020",
+      "budget": 57,
+      "depart": "Lyon",
+      "arriver": "Toulouse",
+      "date": "2025-07-26"
+    },
+    {
+      "name": "Buyer_021",
+      "budget": 52,
+      "depart": "Strasbourg",
+      "arriver": "Lille",
+      "date": "2025-06-12"
+    },
+    {
+      "name": "Buyer_022",
+      "budget": 61,
+      "depart": "Strasbourg",
+      "arriver": "Lyon",
+      "date": "2025-09-27"
+    },
+    {
+      "name": "Buyer_023",
+      "budget": 57,
+      "depart": "Lyon",
+      "arriver": "Paris",
+      "date": "2025-09-03"
+    },
+    {
+      "name": "Buyer_024",
+      "budget": 77,
+      "depart": "Lyon",
+      "arriver": "Marseille",
+      "date": "2025-08-08"
+    },
+    {
+      "name": "Buyer_025",
+      "budget": 76,
+      "depart": "Nice",
+      "arriver": "Bordeaux",
+      "date": "2025-09-16"
+    },
+    {
+      "name": "Buyer_026",
+      "budget": 73,
+      "depart": "Nice",
+      "arriver": "Grenoble",
+      "date": "2025-06-01"
+    },
+    {
+      "name": "Buyer_027",
+      "budget": 96,
+      "depart": "Lille",
+      "arriver": "Paris",
+      "date": "2025-06-15"
+    },
+    {
+      "name": "Buyer_028",
+      "budget": 88,
+      "depart": "Nice",
+      "arriver": "Lyon",
+      "date": "2025-09-24"
+    },
+    {
+      "name": "Buyer_029",
+      "budget": 50,
+      "depart": "Bordeaux",
+      "arriver": "Toulouse",
+      "date": "2025-09-12"
+    },
+    {
+      "name": "Buyer_030",
+      "budget": 62,
+      "depart": "Nice",
+      "arriver": "Bordeaux",
+      "date": "2025-09-16"
+    },
+    {
+      "name": "Buyer_031",
+      "budget": 81,
+      "depart": "Nice",
+      "arriver": "Grenoble",
+      "date": "2025-08-04"
+    },
+    {
+      "name": "Buyer_032",
+      "budget": 82,
+      "depart": "Nice",
+      "arriver": "Strasbourg",
+      "date": "2025-06-17"
+    },
+    {
+      "name": "Buyer_033",
+      "budget": 64,
+      "depart": "Nice",
+      "arriver": "Grenoble",
+      "date": "2025-08-04"
+    },
+    {
+      "name": "Buyer_034",
+      "budget": 47,
+      "depart": "Nice",
+      "arriver": "Grenoble",
+      "date": "2025-08-04"
+    },
+    {
+      "name": "Buyer_035",
+      "budget": 88,
+      "depart": "Lyon",
+      "arriver": "Lille",
+      "date": "2025-09-13"
+    },
+    {
+      "name": "Buyer_036",
+      "budget": 99,
+      "depart": "Strasbourg",
+      "arriver": "Lyon",
+      "date": "2025-09-20"
+    },
+    {
+      "name": "Buyer_037",
+      "budget": 46,
+      "depart": "Strasbourg",
+      "arriver": "Nice",
+      "date": "2025-06-20"
+    },
+    {
+      "name": "Buyer_038",
+      "budget": 76,
+      "depart": "Nice",
+      "arriver": "Grenoble",
+      "date": "2025-08-04"
+    },
+    {
+      "name": "Buyer_039",
+      "budget": 97,
+      "depart": "Nantes",
+      "arriver": "Nice",
+      "date": "2025-07-28"
+    },
+    {
+      "name": "Buyer_040",
+      "budget": 49,
+      "depart": "Strasbourg",
+      "arriver": "Toulouse",
+      "date": "2025-09-15"
+    },
+    {
+      "name": "Buyer_041",
+      "budget": 48,
+      "depart": "Marseille",
+      "arriver": "Grenoble",
+      "date": "2025-08-24"
+    },
+    {
+      "name": "Buyer_042",
+      "budget": 55,
+      "depart": "Nice",
+      "arriver": "Lyon",
+      "date": "2025-07-14"
+    },
+    {
+      "name": "Buyer_043",
+      "budget": 56,
+      "depart": "Strasbourg",
+      "arriver": "Lille",
+      "date": "2025-06-12"
+    },
+    {
+      "name": "Buyer_044",
+      "budget": 47,
+      "depart": "Toulouse",
+      "arriver": "Nice",
+      "date": "2025-06-08"
+    },
+    {
+      "name": "Buyer_045",
+      "budget": 103,
+      "depart": "Lyon",
+      "arriver": "Lille",
+      "date": "2025-09-13"
+    },
+    {
+      "name": "Buyer_046",
+      "budget": 64,
+      "depart": "Lyon",
+      "arriver": "Nantes",
+      "date": "2025-06-05"
+    },
+    {
+      "name": "Buyer_047",
+      "budget": 69,
+      "depart": "Nantes",
+      "arriver": "Nice",
+      "date": "2025-07-28"
+    },
+    {
+      "name": "Buyer_048",
+      "budget": 94,
+      "depart": "Lille",
+      "arriver": "Strasbourg",
+      "date": "2025-07-28"
+    },
+    {
+      "name": "Buyer_049",
+      "budget": 70,
+      "depart": "Toulouse",
+      "arriver": "Lyon",
+      "date": "2025-06-28"
+    },
+    {
+      "name": "Buyer_050",
+      "budget": 94,
+      "depart": "Nice",
+      "arriver": "Toulouse",
+      "date": "2025-06-11"
+    },
+    {
+      "name": "Buyer_051",
+      "budget": 66,
+      "depart": "Nice",
+      "arriver": "Lyon",
+      "date": "2025-09-24"
+    },
+    {
+      "name": "Buyer_052",
+      "budget": 64,
+      "depart": "Marseille",
+      "arriver": "Bordeaux",
+      "date": "2025-07-16"
+    },
+    {
+      "name": "Buyer_053",
+      "budget": 57,
+      "depart": "Strasbourg",
+      "arriver": "Lille",
+      "date": "2025-06-12"
+    },
+    {
+      "name": "Buyer_054",
+      "budget": 66,
+      "depart": "Lille",
+      "arriver": "Strasbourg",
+      "date": "2025-07-28"
+    },
+    {
+      "name": "Buyer_055",
+      "budget": 73,
+      "depart": "Lyon",
+      "arriver": "Strasbourg",
+      "date": "2025-09-05"
+    },
+    {
+      "name": "Buyer_056",
+      "budget": 42,
+      "depart": "Nice",
+      "arriver": "Lille",
+      "date": "2025-09-12"
+    },
+    {
+      "name": "Buyer_057",
+      "budget": 62,
+      "depart": "Lyon",
+      "arriver": "Paris",
+      "date": "2025-09-03"
+    },
+    {
+      "name": "Buyer_058",
+      "budget": 88,
+      "depart": "Marseille",
+      "arriver": "Toulouse",
+      "date": "2025-08-07"
+    },
+    {
+      "name": "Buyer_059",
+      "budget": 47,
+      "depart": "Paris",
+      "arriver": "Marseille",
+      "date": "2025-08-29"
+    },
+    {
+      "name": "Buyer_060",
+      "budget": 52,
+      "depart": "Strasbourg",
+      "arriver": "Grenoble",
+      "date": "2025-09-26"
+    },
+    {
+      "name": "Buyer_061",
+      "budget": 61,
+      "depart": "Strasbourg",
+      "arriver": "Lyon",
+      "date": "2025-09-20"
+    },
+    {
+      "name": "Buyer_062",
+      "budget": 72,
+      "depart": "Lyon",
+      "arriver": "Grenoble",
+      "date": "2025-07-19"
+    },
+    {
+      "name": "Buyer_063",
+      "budget": 76,
+      "depart": "Strasbourg",
+      "arriver": "Nice",
+      "date": "2025-08-31"
+    },
+    {
+      "name": "Buyer_064",
+      "budget": 79,
+      "depart": "Strasbourg",
+      "arriver": "Toulouse",
+      "date": "2025-09-04"
+    },
+    {
+      "name": "Buyer_065",
+      "budget": 65,
+      "depart": "Strasbourg",
+      "arriver": "Lyon",
+      "date": "2025-09-27"
+    },
+    {
+      "name": "Buyer_066",
+      "budget": 63,
+      "depart": "Strasbourg",
+      "arriver": "Grenoble",
+      "date": "2025-09-26"
+    },
+    {
+      "name": "Buyer_067",
+      "budget": 103,
+      "depart": "Marseille",
+      "arriver": "Toulouse",
+      "date": "2025-08-07"
+    },
+    {
+      "name": "Buyer_068",
+      "budget": 78,
+      "depart": "Toulouse",
+      "arriver": "Nantes",
+      "date": "2025-08-25"
+    },
+    {
+      "name": "Buyer_069",
+      "budget": 75,
+      "depart": "Lyon",
+      "arriver": "Paris",
+      "date": "2025-09-03"
+    },
+    {
+      "name": "Buyer_070",
+      "budget": 73,
+      "depart": "Lille",
+      "arriver": "Paris",
+      "date": "2025-06-15"
+    },
+    {
+      "name": "Buyer_071",
+      "budget": 41,
+      "depart": "Lille",
+      "arriver": "Strasbourg",
+      "date": "2025-07-28"
+    },
+    {
+      "name": "Buyer_072",
+      "budget": 61,
+      "depart": "Lyon",
+      "arriver": "Grenoble",
+      "date": "2025-07-19"
+    },
+    {
+      "name": "Buyer_073",
+      "budget": 61,
+      "depart": "Toulouse",
+      "arriver": "Marseille",
+      "date": "2025-06-28"
+    },
+    {
+      "name": "Buyer_074",
+      "budget": 83,
+      "depart": "Nice",
+      "arriver": "Strasbourg",
+      "date": "2025-06-17"
+    },
+    {
+      "name": "Buyer_075",
+      "budget": 60,
+      "depart": "Bordeaux",
+      "arriver": "Toulouse",
+      "date": "2025-09-12"
+    },
+    {
+      "name": "Buyer_076",
+      "budget": 62,
+      "depart": "Nice",
+      "arriver": "Bordeaux",
+      "date": "2025-09-16"
+    },
+    {
+      "name": "Buyer_077",
+      "budget": 69,
+      "depart": "Nice",
+      "arriver": "Lyon",
+      "date": "2025-09-24"
+    },
+    {
+      "name": "Buyer_078",
+      "budget": 92,
+      "depart": "Nice",
+      "arriver": "Toulouse",
+      "date": "2025-06-11"
+    },
+    {
+      "name": "Buyer_079",
+      "budget": 80,
+      "depart": "Lyon",
+      "arriver": "Marseille",
+      "date": "2025-08-08"
+    },
+    {
+      "name": "Buyer_080",
+      "budget": 65,
+      "depart": "Paris",
+      "arriver": "Toulouse",
+      "date": "2025-08-04"
+    },
+    {
+      "name": "Buyer_081",
+      "budget": 49,
+      "depart": "Nice",
+      "arriver": "Grenoble",
+      "date": "2025-08-04"
+    },
+    {
+      "name": "Buyer_082",
+      "budget": 75,
+      "depart": "Nice",
+      "arriver": "Strasbourg",
+      "date": "2025-09-05"
+    },
+    {
+      "name": "Buyer_083",
+      "budget": 38,
+      "depart": "Marseille",
+      "arriver": "Lille",
+      "date": "2025-07-19"
+    },
+    {
+      "name": "Buyer_084",
+      "budget": 54,
+      "depart": "Lyon",
+      "arriver": "Paris",
+      "date": "2025-09-03"
+    },
+    {
+      "name": "Buyer_085",
+      "budget": 54,
+      "depart": "Lyon",
+      "arriver": "Grenoble",
+      "date": "2025-08-24"
+    },
+    {
+      "name": "Buyer_086",
+      "budget": 64,
+      "depart": "Nice",
+      "arriver": "Strasbourg",
+      "date": "2025-09-05"
+    },
+    {
+      "name": "Buyer_087",
+      "budget": 84,
+      "depart": "Strasbourg",
+      "arriver": "Lyon",
+      "date": "2025-09-27"
+    },
+    {
+      "name": "Buyer_088",
+      "budget": 69,
+      "depart": "Strasbourg",
+      "arriver": "Toulouse",
+      "date": "2025-08-10"
+    },
+    {
+      "name": "Buyer_089",
+      "budget": 80,
+      "depart": "Nice",
+      "arriver": "Lyon",
+      "date": "2025-09-24"
+    },
+    {
+      "name": "Buyer_090",
+      "budget": 54,
+      "depart": "Lille",
+      "arriver": "Paris",
+      "date": "2025-06-15"
+    },
+    {
+      "name": "Buyer_091",
+      "budget": 59,
+      "depart": "Toulouse",
+      "arriver": "Marseille",
+      "date": "2025-06-28"
+    },
+    {
+      "name": "Buyer_092",
+      "budget": 36,
+      "depart": "Nice",
+      "arriver": "Grenoble",
+      "date": "2025-06-01"
+    },
+    {
+      "name": "Buyer_093",
+      "budget": 29,
+      "depart": "Strasbourg",
+      "arriver": "Grenoble",
+      "date": "2025-09-26"
+    },
+    {
+      "name": "Buyer_094",
+      "budget": 61,
+      "depart": "Strasbourg",
+      "arriver": "Toulouse",
+      "date": "2025-09-04"
+    },
+    {
+      "name": "Buyer_095",
+      "budget": 53,
+      "depart": "Grenoble",
+      "arriver": "Lyon",
+      "date": "2025-07-20"
+    },
+    {
+      "name": "Buyer_096",
+      "budget": 44,
+      "depart": "Lyon",
+      "arriver": "Nantes",
+      "date": "2025-06-05"
+    },
+    {
+      "name": "Buyer_097",
+      "budget": 48,
+      "depart": "Strasbourg",
+      "arriver": "Toulouse",
+      "date": "2025-09-04"
+    },
+    {
+      "name": "Buyer_098",
+      "budget": 58,
+      "depart": "Marseille",
+      "arriver": "Toulouse",
+      "date": "2025-06-18"
+    },
+    {
+      "name": "Buyer_099",
+      "budget": 56,
+      "depart": "Nice",
+      "arriver": "Lyon",
+      "date": "2025-07-14"
+    },
+    {
+      "name": "Buyer_100",
+      "budget": 41,
+      "depart": "Lille",
+      "arriver": "Strasbourg",
+      "date": "2025-07-28"
+    }
+  ]
+}

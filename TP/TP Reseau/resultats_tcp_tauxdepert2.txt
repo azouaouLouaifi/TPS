@@ -1,0 +1,8 @@
+Début de l'analyse des performances TCP...
+-----------------------------------------
+Résultats de l'analyse des performances TCP :
+  Nombre de paquets émis : 62
+  Nombre de paquets perdus : 22
+  Taux de perte : 35.4839 %
+Durée totale de simulation : 5 secondes.
+-----------------------------------------

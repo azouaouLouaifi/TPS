@@ -1,0 +1,41 @@
+[33m898602e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32msauvegarde-tp3-azwaw[m[33m, [m[1;32mTP3[m[33m)[m MVC_Observateur
+[33m93e18b6[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/TP3[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/BR_TP2[m[33m, [m[1;32mmain[m[33m, [m[1;32mBR_TP2[m[33m)[m TP_2_test_fini
+[33m0330851[m f
+[33m0f3b018[m TP1
+[33mc823c2b[m tp1
+[33m4c6a32b[m Gestion des fichier à ignorer (fixes #1)
+[33m8e0ac63[m ess TP2_1
+[33mf0e408b[m[33m ([m[1;31mmoy/main[m[33m)[m Oups, synaxe markdown cassée dans les scripts
+[33mf17b083[m Nom du switch GitLab : pipelines -> CI/CD
+[33mfb41342[m teste 2
+[33m70ef3a5[m test
+[33m366b134[m Encore des scories de l'an passé, décidément.
+[33m7ccb290[m Encore des scories de l'an passé qui restent, désolé
+[33m878e8cd[m README: maj liste d'intervenants
+[33mc29259f[m NEWS.md: dédoublement créneau TD
+[33m1675f61[m Dédoublement d'un créneau de TP
+[33m7ca5117[m Typo
+[33m99f8a7e[m NEWS.md: 3/09/2024 : lancement de l'UE
+[33m5c285a1[m Typo
+[33m84c99bf[m Suppression de restes de l'an dernier (re-oups)
+[33mf03ca91[m Date de cette année, oups !
+[33m4a538b3[m Encore des restes des années passées
+[33m90069dd[m Environnement installé à la main obsolète
+[33m1bc78ea[m Squelette de projet 2024 en ligne
+[33m187089a[m Calendrier 2024
+[33m20de9b5[m Suppression d'un reste de l'an passé dans le barème.
+[33mcaf95a8[m NEWS.md: Dates (examen, rendu du projet) et précision sur l'énoncé du projet
+[33mb721285[m Patterns : autre que GRASP
+[33m0893ae0[m Date examen
+[33m511ba75[m Remove 404 link
+[33m8b574ea[m Précision sur `contains` dans le README
+[33m1292cf5[m Slides Sandrine en ligne
+[33mdbcefcc[m NEWS.md: 16/10/2023 : TD2 ce mercredi
+[33m5b5f56f[m Lien cours metaprog.
+[33me486481[m NEWS.md: 19/09/2023 : petit bug du squelette
+[33m671767c[m Pas de mention de groupes pour les salles
+[33m7fba15b[m NEWS.md: mise à jour du squelette, logistique cette semaine
+[33mcde990b[m chmod +x on setup-mvn-proxy.sh
+[33m5f4367b[m NEWS.md: 11/09/2023 : début du cours cette semaine
+[33mc075387[m Missing image
+[33m4f92a4e[m Student skeleton

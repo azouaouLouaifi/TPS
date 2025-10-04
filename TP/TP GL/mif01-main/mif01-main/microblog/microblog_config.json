@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "Alice"
+    },
+    {
+      "id": "Bob"
+    }
+  ],
+  "messages": [
+    {
+      "content": "Bonjour tout le monde ! Premier jour sur le microblog 🌟",
+      "dateCreation": "2024-11-30T09:30:00"
+    },
+    {
+      "content": "Je viens de découvrir une super nouvelle techno ! #innovation",
+      "dateCreation": "2024-12-01T14:15:00"
+    },
+    {
+      "content": "La météo est magnifique aujourd\u0027hui ☀️",
+      "dateCreation": "2024-12-02T11:45:00"
+    },
+    {
+      "content": "Qui est partant pour un projet collaboratif ? 🤝",
+      "dateCreation": "2024-12-03T16:20:00"
+    },
+    {
+      "content": "Je viens de terminer la lecture d\u0027un excellent livre sur l\u0027IA 📚",
+      "dateCreation": "2024-12-04T19:05:00"
+    },
+    {
+      "content": "Petit café et coding session du matin ☕️ #developerLife",
+      "dateCreation": "2024-12-05T08:00:00"
+    },
+    {
+      "content": "Weekend hackathon en perspective ! Qui participe ? 💻",
+      "dateCreation": "2024-12-06T10:30:00"
+    },
+    {
+      "content": "Dernières nouvelles : notre projet a gagné un prix ! 🏆",
+      "dateCreation": "2024-12-07T15:45:00"
+    },
+    {
+      "content": "Hello, world!",
+      "dateCreation": "2024-12-07T01:29:38"
+    },
+    {
+      "content": "What is this message?",
+      "dateCreation": "2024-12-07T01:29:38"
+    },
+    {
+      "content": "Good bye, world!",
+      "dateCreation": "2024-12-07T01:29:38"
+    },
+    {
+      "content": "Hello, you!",
+      "dateCreation": "2024-12-07T01:29:38"
+    },
+    {
+      "content": "Hello hello, world world world",
+      "dateCreation": "2024-12-07T01:29:38"
+    }
+  ]
+}

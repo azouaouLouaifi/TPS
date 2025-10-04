@@ -1,0 +1,562 @@
+SQL> @ E:/TPBDD/TPOracleScript.sql
+SP2-0734: commande inconnue au début de "*=========..." - le reste de la ligne est ignoré.
+
+Index supprimé.
+
+
+Index supprimé.
+
+
+Index supprimé.
+
+
+Index supprimé.
+
+drop index VOIR_FK
+           *
+ERREUR à la ligne 1 :
+ORA-01418: l'index indiqué n'existe pas 
+
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Index créé.
+
+
+Table créée.
+
+
+Index créé.
+
+SQL> @ E:/TPBDD/DONNEES.txt
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+INSERT INTO Joue VALUES ('Kevin Costner', 'Perfect World')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+
+1 ligne créée.
+
+INSERT INTO Joue VALUES ('Kevin Costner', 'Body Guard')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Joue VALUES ('Clint Eastwood', 'Perfect World')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Joue VALUES ('Tom Cruise', 'Top Gun')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Joue VALUES ('Tom Cruise', 'Men')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Joue VALUES ('Nicole Kidman', 'Men')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+
+1 ligne créée.
+
+INSERT INTO Joue VALUES ('Harisson Ford', 'Indiana Jones')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+
+1 ligne créée.
+
+INSERT INTO Joue VALUES ('Aaron Smith', 'Indiana Jones')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+INSERT INTO Joue VALUES ('Amanda Peet', 'Top Gun')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Produit VALUES ('Clint Eastwood', 'Perfect World')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_PRODUIT_PRODUIR_FILM) - 
+clé parent introuvable 
+
+
+INSERT INTO Produit VALUES ('Adam Moore', 'Men')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_PRODUIT_PRODUIR_FILM) - 
+clé parent introuvable 
+
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+INSERT INTO Seance VALUES ('Indiana Jones', 'Alpha', '13:00', 'VF')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Body Guard', 'Alpha', '21:00', 'VO')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Les Incorruptibles', 'Ibn Zeidoun', '13:00', 'VO')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('ET', 'Ibn Zeidoun', '11:00', 'VO')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Top Gun', 'Ibn Zeidoun', '15:00', 'VO')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Top Gun', 'Alpha', '09:00', 'VF')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Men', 'Beta', '11:00', 'VF')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Le Pacificateur', 'Beta', '23:00', 'VF')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0044: Pour la liste des commandes connues entrez HELP
+and et pour sortir EXIT.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SQL> create table PRODUIT  (
+  2     NOM_PRODUCTEUR       VARCHAR2(30)                     not null,
+  3     TITRE                VARCHAR2(40)                     not null,
+  4     constraint PK_PRODUIT primary key (NOM_PRODUCTEUR, TITRE),
+  5     constraint FK_PRODUIT_PRODUIR_FILM foreign key (TITRE)
+  6           references FILM (TITRE)
+  7  );
+create table PRODUIT  (
+             *
+ERREUR à la ligne 1 :
+ORA-00955: ce nom d'objet existe déjà 
+
+
+SQL> INSERT INTO Produit VALUES ('Clint Eastwood', 'Perfect World');
+INSERT INTO Produit VALUES ('Clint Eastwood', 'Perfect World')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_PRODUIT_PRODUIR_FILM) - 
+clé parent introuvable 
+
+
+SQL> DROP TABLE FILME CASCADE CONSTRAINTS
+  2  ;
+DROP TABLE FILME CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+SQL> create table FILM  (
+  2     TITRE                VARCHAR2(40)                     not null,
+  3     DUREE                INTEGER,
+  4     NATIONALITE          VARCHAR2(30),
+  5     NOM_REALISATEUR   VARCHAR2(30),
+  6     constraint PK_FILM primary key (TITRE)
+  7  );
+create table FILM  (
+             *
+ERREUR à la ligne 1 :
+ORA-00955: ce nom d'objet existe déjà 
+
+
+SQL>  DROP TABLE FILM CASCADE CONSTRAINTS
+  2  ;
+
+Table supprimée.
+
+SQL> @ E:/TPBDD/TPOracleScript.sql
+SP2-0734: commande inconnue au début de "*=========..." - le reste de la ligne est ignoré.
+drop index AIMER_FK
+           *
+ERREUR à la ligne 1 :
+ORA-01418: l'index indiqué n'existe pas 
+
+
+
+Index supprimé.
+
+
+Index supprimé.
+
+drop index PROJETER_FK
+           *
+ERREUR à la ligne 1 :
+ORA-01418: l'index indiqué n'existe pas 
+
+
+drop index VOIR_FK
+           *
+ERREUR à la ligne 1 :
+ORA-01418: l'index indiqué n'existe pas 
+
+
+drop table AIME cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+drop table VU cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+drop table SEANCE cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+drop table FILM cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+
+Table créée.
+
+
+Table créée.
+
+
+Index créé.
+
+
+Table créée.
+
+
+Index créé.
+
+SQL>  @ E:/TPBDD/DONNEES.txt COMMIT;
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+INSERT INTO Joue VALUES ('Kevin Costner', 'Perfect World')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+
+1 ligne créée.
+
+INSERT INTO Joue VALUES ('Kevin Costner', 'Body Guard')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Joue VALUES ('Clint Eastwood', 'Perfect World')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Joue VALUES ('Tom Cruise', 'Top Gun')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Joue VALUES ('Tom Cruise', 'Men')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Joue VALUES ('Nicole Kidman', 'Men')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+
+1 ligne créée.
+
+INSERT INTO Joue VALUES ('Harisson Ford', 'Indiana Jones')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+
+1 ligne créée.
+
+INSERT INTO Joue VALUES ('Aaron Smith', 'Indiana Jones')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+INSERT INTO Joue VALUES ('Amanda Peet', 'Top Gun')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_JOUE_JOUER_FILM) - clé 
+parent introuvable 
+
+
+INSERT INTO Produit VALUES ('Clint Eastwood', 'Perfect World')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_PRODUIT_PRODUIR_FILM) - 
+clé parent introuvable 
+
+
+INSERT INTO Produit VALUES ('Adam Moore', 'Men')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (SYS.FK_PRODUIT_PRODUIR_FILM) - 
+clé parent introuvable 
+
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+INSERT INTO Seance VALUES ('Indiana Jones', 'Alpha', '13:00', 'VF')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Body Guard', 'Alpha', '21:00', 'VO')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Les Incorruptibles', 'Ibn Zeidoun', '13:00', 'VO')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('ET', 'Ibn Zeidoun', '11:00', 'VO')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Top Gun', 'Ibn Zeidoun', '15:00', 'VO')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Top Gun', 'Alpha', '09:00', 'VF')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Men', 'Beta', '11:00', 'VF')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+INSERT INTO Seance VALUES ('Le Pacificateur', 'Beta', '23:00', 'VF')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0044: Pour la liste des commandes connues entrez HELP
+and et pour sortir EXIT.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SP2-0734: commande inconnue au début de "INSÃ‰RER D..." - le reste de la ligne est ignoré.
+SQL> SPOOL OFF

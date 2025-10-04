@@ -1,0 +1,7 @@
+Début de l'analyse des performances TCP...
+-----------------------------------------
+Résultats de l'analyse des performances TCP :
+  Nombre de paquets reçus (nœud émetteur 0) : 537
+  Débit moyen : 891968 bits/s
+Durée totale de simulation : 5 secondes.
+-----------------------------------------

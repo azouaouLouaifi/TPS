@@ -1,0 +1,5 @@
+Début de l'analyse des performances TCP...
+-----------------------------------------
+  taux de perte : 100.558
+Durée totale de simulation : 5 secondes.
+-----------------------------------------
