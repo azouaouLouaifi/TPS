@@ -1,0 +1,217 @@
+/* Principale.css */
+.three-column-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-column {
+  width: 80%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Styles pour la colonne de gauche */
+.left-column {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 23%;
+  height: 100vh;
+  background-color: #53b774;
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 8px solid #000000;
+
+  /* Centrage total */
+  display: flex;
+  flex-direction: column;
+
+  align-items: center; /* Centre horizontalement */
+  text-align: center;
+}
+
+/* Ajustement de la section des entrées */
+.travel-input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre les inputs */
+  width: 100%;
+}
+
+.travel-input {
+  width: 80%; /* Réduit la largeur pour éviter qu'il colle aux bords */
+  max-width: 250px;
+  text-align: center;
+}
+
+.transport-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 6px; /* Espace entre l'input et le label */
+}
+
+.transport-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.transport-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.transport-icons {
+  display: flex;
+  /*flex-direction: column;*/ /* Affiche en colonne */
+  align-items: center;    
+  gap: 12px;              
+  margin-top: 10px;
+}
+
+
+.transport-icon-button {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.transport-icon-button.selected {
+  background-color: #0e4407;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.content-section {
+  background-color: #555;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.content-section h3 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Styles pour la colonne de droite */
+.right-column-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 5%;
+  height: 100vh;
+  display: flex;
+}
+
+.right-column-container.visible {
+  width: 10%;
+}
+
+.right-column {
+  width: 100%;
+  height: 100%;
+  background-color: #53b774;
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.toggle-button {
+  background-color: #53b774;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #005f20;
+}
+
+.toggle-button.center-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toggle-button.side-button {
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%) rotate(180deg);
+  /*writing-mode: vertical-rl;*/
+  text-orientation: mixed;
+  white-space: nowrap;
+}
+
+/* Styles pour la section de profil dans la colonne de droite */
+.right-column .profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.top-right-profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;  /* Pour etre circulaire */
+}
+
+.profile-name {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-name h3 {
+  color: white;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.profile-history-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.history-button {
+  background-color: #3a8152;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-image-selection {
+  margin-top: 20px;
+}
+
+.profile-image-thumbnail {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}

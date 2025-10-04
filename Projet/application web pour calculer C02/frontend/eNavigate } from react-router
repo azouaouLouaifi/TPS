@@ -1,0 +1,16 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 0c589ec..029ea7b 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -2,9 +2,9 @@[m
+ <html lang="en">[m
+   <head>[m
+     <meta charset="UTF-8" />[m
+[31m-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />[m
+[32m+[m[32m    <link rel="icon" type="image/png+xml" href="/src/assets/feuille2.png" />[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m
+[31m-    <title>Vite + React</title>[m
+[32m+[m[32m    <title>GreenPath</title>[m
+   </head>[m
+   <body>[m
+     <div id="root"></div>[m
