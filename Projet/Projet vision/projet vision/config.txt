@@ -1,0 +1,22 @@
+Créer un dossier pour YOLO
+Dans le même répertoire où se trouvent vos fichiers app.py et fonction_gui.py, créez un dossier nommé yolo_files.
+
+Télécharger les fichiers YOLO
+Accédez au lien suivant pour télécharger les trois fichiers nécessaires :
+Fichiers YOLO (yolov3.weights, yolov3.cfg, coco.names) dans le link: https://drive.google.com/drive/folders/1iv4B4Z38xY-oZ74cIFh0kCb9_BuR2-Mh?usp=sharing
+
+Une fois les fichiers téléchargés, déplacez-les dans le dossier yolo_files que vous venez de créer.
+
+Les fichiers requis sont :
+
+yolov3.weights
+yolov3.cfg
+coco.names
+Installer les bibliothèques nécessaires
+Installez les bibliothèques Python suivantes pour exécuter votre application :
+
+pip install streamlit numpy opencv-python pandas
+Lancer l'application Streamlit
+Pour exécuter l'application, utilisez la commande suivante dans le terminal, en vous assurant que vous êtes dans le répertoire contenant app.py :
+
+streamlit run app.py
